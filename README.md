@@ -48,7 +48,7 @@ minikube image load airbyte/(destination or source)-YOUR_CONNECTOR_NAME:dev
 
 Go to airbyte url: http://localhost:8000  
   
-Go to Settings > Destinations  
+Go to Settings > Destinations or Sources
 ![img.png](images/1.png)  
   
 Click in New connector and register the docker image  
@@ -56,4 +56,4 @@ Click in New connector and register the docker image
   
 Now create a new destination with the connector parameters.
   
-Create a pipeline using any source and the new registered destination to test :)
+Create a pipeline using your source or destination to test :)
