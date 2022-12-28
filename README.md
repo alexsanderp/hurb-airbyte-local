@@ -15,12 +15,14 @@ bash install_local_dependencies.sh
 ```
 
 ### Locally running the airbyte
-This script starts minikube, installs airbyte and prints a URL for local access. If minikube and airbyte are already running, just print the url for access:
+This script starts minikube, installs and run airbyte for local access. If minikube and airbyte are already running, just print the url for access:
 
 ```
 cd scripts/
 bash run_local_airbyte.sh
 ```
+
+Go to airbyte url: http://localhost:8000  
 
 ### Developing a custom connector
 Airbyte allows us to create custom connectors to contribute to the official project. In this case I am presenting an architecture considering that they are unofficial connectors that only Hurb will use.
