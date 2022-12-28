@@ -26,7 +26,7 @@ bash run_local_airbyte.sh
   
 ### Locally using the connector in Airbyte (minikube)  
 
-If you want to test a connector that is already publicly available on dockerhub, skip the step of build and load the docker image on minikube.
+If you want to test a connector that is already publicly available on dockerhub, skip the step of build and skip the step of load the docker image on minikube.
 
 
 #### Build  
