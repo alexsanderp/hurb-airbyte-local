@@ -35,7 +35,7 @@ cd YOUR_CONNECTOR_GITHUB_REPO/
 docker build -t airbyte/(destination or source)-YOUR_CONNECTOR_NAME:dev .  
 ```
  
-#### Using  
+#### Load  
 
 Send your custom connector docker image (local) to minikube:
 
@@ -44,6 +44,7 @@ Example:
 minikube image load airbyte/(destination or source)-YOUR_CONNECTOR_NAME:dev 
 ```  
  
+#### Using
 Go to airbyte url: http://localhost:8000  
   
 Go to Settings > Destinations  
