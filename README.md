@@ -82,3 +82,18 @@ Click in New connector and register the docker image
 Now create a new source or destination with the connector parameters.
   
 Create a pipeline using your source or destination to test :)
+
+### Reset Airbyte
+
+Run command:
+
+```
+minikube delete
+```
+
+And run AGAIN: 
+
+```
+cd scripts/
+bash run_local_airbyte.sh
+```
