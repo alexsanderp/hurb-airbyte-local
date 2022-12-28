@@ -34,9 +34,6 @@ If you want to test a connector that is already publicly available on dockerhub,
 cd YOUR_CONNECTOR_GITHUB_REPO/
 docker build -t airbyte/(destination or source)-YOUR_CONNECTOR_NAME:dev .  
 ```
-  
- ### Locally using a custom connector in Airbyte (minikube)
-
  
 #### Using  
 
