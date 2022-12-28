@@ -1,6 +1,6 @@
-# Hurb Airbyte  
+# Hurb Airbyte Local
   
-This repository contains instructions for running airbyte locally for testing connectors. It also contains the CI/CD workflows for deploying airbyte to a production cluster on GKE.
+This repository contains instructions for running airbyte locally for testing connectors.
   
 ## Local development  
   
