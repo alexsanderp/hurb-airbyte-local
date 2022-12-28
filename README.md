@@ -54,6 +54,6 @@ Go to Settings > Destinations or Sources
 Click in New connector and register the docker image  
 ![img.png](images/2.png)  
   
-Now create a new destination with the connector parameters.
+Now create a new source or destination with the connector parameters.
   
 Create a pipeline using your source or destination to test :)
