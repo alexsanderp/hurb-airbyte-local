@@ -45,6 +45,7 @@ minikube image load airbyte/(destination or source)-YOUR_CONNECTOR_NAME:dev
 ```  
  
 #### Using
+
 Go to airbyte url: http://localhost:8000  
   
 Go to Settings > Destinations  
