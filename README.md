@@ -29,7 +29,7 @@ To contribute to the official airbyte there is already documentation that explai
 
 To create an unofficial connector, I suggest each connector is in a separate github repository to take advantage of github version control. A monorepo is also an option, but I've considered using separate repositories to get separate versions and release notes.
 
-The steps are: create a github repo, use the airbyte generate.sh script to create connector base code and copy files to connector github repo.
+The steps are: create a github repo, use the airbyte generate.sh script to create connector base code and copy folder to connector github repo.
 
 #### Generating a connector written in python
 
