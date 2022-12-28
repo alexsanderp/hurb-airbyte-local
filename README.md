@@ -2,8 +2,6 @@
   
 This repository contains instructions for running airbyte locally for testing connectors.
   
-## Local development  
-  
 ### Prerequisites  
 **To interact with airbyte locally , make sure to complete this prerequisites section.**
 
