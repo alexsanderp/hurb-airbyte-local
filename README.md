@@ -23,8 +23,8 @@ This script starts minikube, installs airbyte and prints a URL for local access.
 cd scripts/
 bash run_local_airbyte.sh
 ```
-  
-### Locally using the connector in Airbyte (minikube)  
+
+### Locally using the custom connector in Airbyte (minikube)  
 
 If you want to test a connector that is already publicly available on dockerhub, skip the step of build and skip the step of load the docker image on minikube.
 
